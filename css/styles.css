@@ -1,0 +1,169 @@
+body{
+  font-family: Montserrat;
+}
+
+/* header */
+
+#header{
+  background-color: #EDEC5C;
+  padding-bottom: 5%;
+}
+
+.eva-marie{
+  font-family: 'Sacramento';
+  font-size: 3.5rem;
+  font-weight: bold;
+  padding-left: 5%;
+  overflow: hidden;
+  transition-duration: 2s;
+  transition-property: transform;
+}
+.eva-marie:hover {
+    -webkit-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -ms-transform:rotate(360deg);
+    -o-transform:rotate(360deg);
+    transform: rotate(360deg);
+}
+
+ul{
+  position: absolute;
+  right:5%;
+
+}
+
+.nav-item{
+  padding: 0 25px;
+  font-family: 'Montserrat';
+  font-size: 1rem;
+}
+
+
+.design{
+  width: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right:auto;
+
+}
+
+.earth
+{
+  width: 40%;
+  position: absolute;
+  z-index: 1;
+  left: 30%;
+bottom:40%;
+  animation: rotation 8s infinite linear;
+}
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+@media (max-width:1250px){
+  .earth{
+    animation: none;
+    top:10%;
+  }
+.eva-img{
+  display: block;
+  margin-right:0;
+  text-align: center;
+}
+}
+
+/* PRESENTATION */
+
+#presentation{
+
+  margin: 5% auto;
+}
+.eva-img{
+  width: 30%;
+  display: block;
+  margin: 10% auto;
+}
+
+h2{
+  font-weight: bold;
+}
+
+
+.icons{
+    font-size:3rem;
+}
+
+.fa-html5{
+  color:#FF5F3C;
+}
+
+.fa-css3-alt{
+  color:#3C83FF;
+
+}
+
+.fa-js-square{
+color:#FFF03C;
+}
+
+.fa-bootstrap{
+  color:#833DAD;
+  }
+
+.fa-sass{
+  color:#F272EE;
+}
+.fa-node{
+color:#329D61;
+}
+
+.fa-react{
+color: #61D9DA;
+}
+
+.fab{
+  overflow: hidden;
+  transition-duration: 2s;
+  transition-property: transform;
+}
+.fab:hover {
+    -webkit-transform: rotateY(360deg);
+    -moz-transform: rotateY(360deg);
+    -ms-transform:rotateY(360deg);
+    -o-transform:rotateY(360deg);
+    transform: rotateY(360deg);
+}
+
+.bubble{
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #EDEC5C;
+    display: inline-block;
+    padding: 10px 18px;
+    position: relative;
+    vertical-align: top;
+}
+
+.technologies {
+  margin-top: 5%;
+  text-align: center;
+}
+
+.eva-pres{
+  text-align: center;
+  margin-top: 7%;
+}
+
+/* WORK */
+
+.d-block{
+  width: 60%;
+}
+.carousel{
+  width: 70%;
+  margin: auto;
+}
